@@ -61,9 +61,9 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'NOT AVAILABLE RIGHT NOW ')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Hanuman")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://techvjyt: OmWwNzpGVFfwEpqe@cluster 0.094lx.mongodb.net/ ?retryWrites=true&w=majority& appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "techvjyt")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'HP_Raj_Collection')
 
 # ============================
