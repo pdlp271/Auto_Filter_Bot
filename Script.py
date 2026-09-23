@@ -158,7 +158,7 @@ Nᴀᴍᴇ - {}
     
     MVE_NT_FND = NOT_FOUND_TXT = """<b>😌 ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.</b>
 
-<blockquote>😌 यह ᴍᴏᴠɪᴇ मुझे ᴍᴇʀᴇ ᴅᴀᴛᴀʙᴀꜱᴇ में नहीं मिली।</blockquote>"""
+<blockquote>😌 ಈ ಮೂವಿ ನನ್ನ database ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ ದಯವಿಟ್ಟು admin ನ ಕೇಳಿ \n @HP_Raj_Support_Bot</blockquote>"""
 
     ALREADY_AVAILABLE_TXT = """<b>ʜᴇʏ {},
     
@@ -181,9 +181,9 @@ Nᴀᴍᴇ - {}
 
 ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ғᴏʀ ᴍᴏᴠɪᴇs ᴏɴʟʏ ᴏɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ. ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ᴍᴏᴠɪᴇs ᴏɴ ᴅɪʀᴇᴄᴛ ʙᴏᴛ. ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴀɴᴅ sᴇᴀʀᴄʜ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇ ᴛʜᴇʀᴇ 👇
 
-<blockquote>आप केवल हमारे ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ पर ही ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ कर सकते हो । 
+<blockquote>ನೀವು ಮೂವಿಯನ್ನು ನಮ್ಮ Movie Group ನಲ್ಲಿ ಕೇಳಿ । 
 
-आपको ᴅɪʀᴇᴄᴛ ʙᴏᴛ पर ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ करने की ᴘᴇʀᴍɪssɪᴏɴ नहीं है कृपया नीचे दिए गए ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ वाले ʙᴜᴛᴛᴏɴ पर क्लिक करके हमारे ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ को ᴊᴏɪɴ करें और वहां पर अपनी मनपसंद ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ सर्च करें ।</blockquote></b>"""
+ನಿಮಿಗೆ direct ಆಗಿ bot ನಲ್ಲಿ  ಮೂವಿ search ಮಾಡಲು permission ಇಲ್ಲ ಕೆಳಗೆ ಕಾಣುವ ನಮ್ಮ ಗ್ರೂಪ್ ಗೆ ಜಾಯಿನ್ ಆಗಿ </blockquote></b>"""
 
     PM_LOG_TXT = """<b>#𝐏𝐌_𝐌𝐒𝐆
 
@@ -272,21 +272,13 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-<b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+</b><b>{filename}</b> <b>{year}</b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename} {year}</code>
-
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
-{episodes}
-</blockquote>
-
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
-"""
-
+<b>➩ Language</b> : <b>{language}</b>
+<b>➩ Genres</b> : <b>{genres}</b>
+<b>➩ Quality</b> : <b>{quality}</b>
+<b>{episodes}</b>
+<b>×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES</b> """
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title}</a> (<a href={url}/releaseinfo>{year}</a>)</b>
 
