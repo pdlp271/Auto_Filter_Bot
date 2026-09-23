@@ -24,11 +24,11 @@ class script(object):
 📌 ꜰᴏʀ ꜱᴇʀɪᴇꜱ:  
 ➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + S01 (ꜰᴏʀ ꜱᴇᴀꜱᴏɴ 1, ᴄʜᴀɴɢᴇ ꜰᴏʀ ᴏᴛʜᴇʀꜱ)  
 
-📌 ꜰᴏʀ ʜɪɴᴅɪ ᴅʀᴀᴍᴀꜱ:  
-➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + ʜɪɴᴅɪ  
+📌 ꜰᴏʀ ᴋᴀɴɴᴀᴅᴀ ᴅʀᴀᴍᴀꜱ:  
+➤ ᴅʀᴀᴍᴀ ɴᴀᴍᴇ + ᴋᴀɴɴᴀᴅᴀ  
 
 📌 ꜰᴏʀ ᴍᴏᴠɪᴇꜱ:  
-➤ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ + ʏᴇᴀʀ (ᴇx: ᴊᴏᴋᴇʀ 2019)  
+➤ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ + ʏᴇᴀʀ (ᴇx: ᴍᴀꜱᴛᴇʀ 2021)  
 
 🚀 ꜰᴏʟʟᴏᴡ ᴛʜᴇꜱᴇ ꜱᴛᴇᴘꜱ!
 </b>"""
@@ -142,23 +142,15 @@ Nᴀᴍᴇ - {}
 <blockquote expandable><b><i>≡ ɴᴏᴛᴇ : ᴜsᴇ 𝐕𝐋𝐂 / 𝐌𝐗 ᴩʟᴀʏᴇʀ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ᴇxᴩᴇʀɪᴇɴᴄᴇ.</i></b></blockquote>"""
 
 
-    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
+    I_CUDNT = """<b>ɪ ᴄᴀɴ'ᴛ ꜱᴇᴀʀᴄʜ {}
+    
+    ᴩʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴩᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
-
-📝 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-
-⚜️ ᴇxᴀᴍᴘʟᴇ : Jawan or Jawan 2023 
-
-📝 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-
-⚜️ ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
-
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+    🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
     
     MVE_NT_FND = NOT_FOUND_TXT = """<b>😌 ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.</b>
 
-<blockquote>😌 यह ᴍᴏᴠɪᴇ मुझे ᴍᴇʀᴇ ᴅᴀᴛᴀʙᴀꜱᴇ में नहीं मिली।</blockquote>"""
+<blockquote>😌 ಈ ಮೂವಿ ನನ್ನ database ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ ದಯವಿಟ್ಟು admin ನ ಕೇಳಿ \n @HP_Raj_Support_Bot</blockquote>"""
 
     ALREADY_AVAILABLE_TXT = """<b>ʜᴇʏ {},
     
@@ -171,7 +163,7 @@ Nᴀᴍᴇ - {}
 
 📝 ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ : 👇</b>"""
 
-    MAINTENANCE_TXT = """<b>🛑 ꜱᴇʀᴠɪᴄᴇ ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ 🛑</b>
+    MAINTENANCE_TXT = """<b>👨‍🔧 ꜱᴇʀᴠɪᴄᴇ ᴜɴᴅᴇʀ ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ 👨‍🔧</b>
 
 <b>ʜᴇʏ {}, ᴡᴇ ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟʏ ᴜᴘᴅᴀᴛɪɴɢ ᴏᴜʀ ꜱʏꜱᴛᴇᴍꜱ ᴛᴏ ꜱᴇʀᴠᴇ ʏᴏᴜ ʙᴇᴛᴛᴇʀ. ᴛʜᴇ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴛᴇᴍᴘᴏʀᴀʀɪʟʏ ᴅɪꜱᴀʙʟᴇᴅ.</b>
 
@@ -181,9 +173,9 @@ Nᴀᴍᴇ - {}
 
 ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ғᴏʀ ᴍᴏᴠɪᴇs ᴏɴʟʏ ᴏɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ. ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ᴍᴏᴠɪᴇs ᴏɴ ᴅɪʀᴇᴄᴛ ʙᴏᴛ. ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴀɴᴅ sᴇᴀʀᴄʜ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇ ᴛʜᴇʀᴇ 👇
 
-<blockquote>आप केवल हमारे ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ पर ही ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ कर सकते हो । 
+<blockquote>ನೀವು ಮೂವಿಯನ್ನು ನಮ್ಮ Movie Group ನಲ್ಲಿ ಕೇಳಿ । 
 
-आपको ᴅɪʀᴇᴄᴛ ʙᴏᴛ पर ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ करने की ᴘᴇʀᴍɪssɪᴏɴ नहीं है कृपया नीचे दिए गए ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ वाले ʙᴜᴛᴛᴏɴ पर क्लिक करके हमारे ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ को ᴊᴏɪɴ करें और वहां पर अपनी मनपसंद ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ सर्च करें ।</blockquote></b>"""
+ನಿಮಿಗೆ direct ಆಗಿ bot ನಲ್ಲಿ  ಮೂವಿ search ಮಾಡಲು permission ಇಲ್ಲ ಕೆಳಗೆ ಕಾಣುವ ನಮ್ಮ ಗ್ರೂಪ್ ಗೆ ಜಾಯಿನ್ ಆಗಿ </blockquote></b>"""
 
     PM_LOG_TXT = """<b>#𝐏𝐌_𝐌𝐒𝐆
 
@@ -214,6 +206,8 @@ Nᴀᴍᴇ - {}
     FORCESUB_TXT = """<b>👋 ʜᴇʟʟᴏ {}
 
 🛑 ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜᴇ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.
+
+🛑 ಮುಂದುವರಿಯಲು ನೀವು ಅಗತ್ಯವಿರುವ ಚಾನೆಲ್‌ಗಳನ್ನು ಕಡ್ಡಾಯವಾಗಿ ಜಾಯಿನ್ ಆಗಬೇಕು.
 
 <blockquote>👉 ᴊᴏɪɴ ᴀʟʟ ᴛʜᴇ ʙᴇʟᴏᴡ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</blockquote></b>"""
 
@@ -271,29 +265,20 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     CAPTION = """<b><a href="https://t.me/dreamxbotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/dreamxbotz">[ ᴅʀᴇᴀᴍxʙᴏᴛᴢ ]</a></b>"""
 
     
-    MOVIE_UPDATE_NOTIFY_TXT = """
-<b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+      MOVIE_UPDATE_NOTIFY_TXT = """
+</b><b>{filename}</b> <b>{year}</b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename} {year}</code>
-
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
-{episodes}
-</blockquote>
+<b>➩ Language</b> : <b>{language}</b>
+<b>➩ Genres</b> : <b>{genres}</b>
+<b>➩ Quality</b> : <b>{quality}</b>
+<b>{episodes}</b>
+<b>×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES</b> """
 
 🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
 """
 
-
-    IMDB_TEMPLATE_TXT = """<b><a href={url}>{title}</a> (<a href={url}/releaseinfo>{year}</a>)</b>
-
-ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a>
-ɢᴇɴʀᴇ : {genres}
+    IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
 ᴀᴜᴅɪᴏ : {languages}
-
 sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 <b>ʀᴇǫ ʙʏ : {message.from_user.mention}</b>"""
 
