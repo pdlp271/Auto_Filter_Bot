@@ -90,9 +90,9 @@ async def start(client, message):
             return         
         if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             buttons = [[
-                        InlineKeyboardButton('❤️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❤️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('⭕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton('🍁 Update Channel 🍁', url=UPDATE_CHNL_LNK)
+                        InlineKeyboardButton('• ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ •', url=UPDATE_CHNL_LNK)
                       ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, link_preview_options=LinkPreviewOptions(is_disabled=True))
@@ -108,13 +108,13 @@ async def start(client, message):
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
         if len(message.command) != 2:
             buttons = [[
-                        InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('⭕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                        InlineKeyboardButton('• ꜱʜᴀʀᴇ ᴍᴇ •', url=f'https://t.me/share/url?url=%F0%9F%92%8E%20Get%20unlimited%20access%20to%20the%20latest%20Movies%2C%20Web%20Series%20%26%20Anime%2C%20all%20in%20one%20bot%21%20%F0%9F%8E%81%20It%E2%80%99s%20100%25%20free%20and%20Movies%20updated%20daily.%0A%0AJoin%20now%20%E2%9E%A4%20%40HP_RajMVBot'),
+                        InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                     ],[
-                        InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                        InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                        InlineKeyboardButton('• ᴍᴠ ɢʀᴏᴜᴩ •', url=f'https://t.me/+DWu_QXl2Ydg3N2Zl'),
+                        InlineKeyboardButton('• ᴍᴠ ᴜᴩᴅᴀᴛᴇ •', url=f'https://t.me/+DdA9O8bwZ0ljODk1'),
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -144,13 +144,13 @@ async def start(client, message):
 
         if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
             buttons = [[
-                        InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('⭕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                        InlineKeyboardButton('• ꜱʜᴀʀᴇ ᴍᴇ •', url=f'https://t.me/share/url?url=%F0%9F%92%8E%20Get%20unlimited%20access%20to%20the%20latest%20Movies%2C%20Web%20Series%20%26%20Anime%2C%20all%20in%20one%20bot%21%20%F0%9F%8E%81%20It%E2%80%99s%20100%25%20free%20and%20Movies%20updated%20daily.%0A%0AJoin%20now%20%E2%9E%A4%20%40HP_RajMVBot'),
+                        InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
                     ],[
-                        InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                        InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                        InlineKeyboardButton('• ᴍᴠ ɢʀᴏᴜᴩ •', url=f'https://t.me/+DWu_QXl2Ydg3N2Zl'),
+                        InlineKeyboardButton('• ᴍᴠ ᴜᴩᴅᴀᴛᴇ •', url=f'https://t.me/+DdA9O8bwZ0ljODk1'),
                     ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -224,7 +224,7 @@ async def start(client, message):
             buttons = [[
                         InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', url=OWNER_LNK)
                       ],[
-                        InlineKeyboardButton('UPI ID Copy Karein ??', copy_text=CopyTextButton(text=OWNER_UPI_ID), style=enums.ButtonStyle.PRIMARY)
+                        InlineKeyboardButton('ᴄᴏᴩʏ ᴛʜᴇ ᴜᴩɪ ɪᴅ ', copy_text=CopyTextButton(text=OWNER_UPI_ID), style=enums.ButtonStyle.PRIMARY)
                       ],[
                         InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data', style=enums.ButtonStyle.DANGER)
                       ]]
@@ -316,9 +316,9 @@ async def start(client, message):
                     else:
                         howtodownload = settings.get('tutorial_2', TUTORIAL_2) if is_second_shortener else settings.get('tutorial', TUTORIAL)
                     buttons = [[
-                        InlineKeyboardButton(text="♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴠᴇʀɪꜰʏ ♻️", url=verify)
+                        InlineKeyboardButton(text="♻️ ɢᴇɴᴇʀᴀᴛᴇ ᴛᴏᴋᴇɴ ♻️", url=verify)
                     ],[
-                        InlineKeyboardButton(text="⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ ⁉️", url=howtodownload)
+                        InlineKeyboardButton(text="⁉️ ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴛᴏᴋᴇɴ ⁉️", url=howtodownload)
                     ]]
                     reply_markup=InlineKeyboardMarkup(buttons)
                     if await db.user_verified(user_id): 
@@ -464,25 +464,25 @@ async def start(client, message):
 async def stream_buttons(user_id: int, file_id: str):
     if STREAM_MODE and not PREMIUM_STREAM_MODE:
         return [
-            [InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')],
-            [InlineKeyboardButton('ℹ️ ᴠɪᴇᴡ ᴀᴜᴅɪᴏ & ꜱᴜʙꜱ ɪɴꜰᴏ ℹ️', callback_data=f'extract_data:{file_id}')],
-            [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)]
+            [InlineKeyboardButton('• ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ •', callback_data=f'generate_stream_link:{file_id}')],
+            [InlineKeyboardButton('• ᴠɪᴇᴡ ᴀᴜᴅɪᴏ & ꜱᴜʙꜱ ɪɴꜰᴏ •', callback_data=f'extract_data:{file_id}')],
+            [InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ •', url=UPDATE_CHNL_LNK)]
         ]
     elif STREAM_MODE and PREMIUM_STREAM_MODE:
         if not await db.has_premium_access(user_id):
             return [
-                [InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data='prestream')],
-                [InlineKeyboardButton('ℹ️ ᴠɪᴇᴡ ᴀᴜᴅɪᴏ & ꜱᴜʙꜱ ɪɴꜰᴏ ℹ️', callback_data='prestream')],
-                [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)]
+                [InlineKeyboardButton('• ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ •', callback_data='prestream')],
+                [InlineKeyboardButton('• ᴠɪᴇᴡ ᴀᴜᴅɪᴏ & ꜱᴜʙꜱ ɪɴꜰᴏ •', callback_data='prestream')],
+                [InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ •', url=UPDATE_CHNL_LNK)]
             ]
         else:
             return [
-                [InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')],
-                [InlineKeyboardButton('ℹ️ ᴠɪᴇᴡ ᴀᴜᴅɪᴏ & ꜱᴜʙꜱ ɪɴꜰᴏ ℹ️', callback_data=f'extract_data:{file_id}')],
-                [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)]
+                [InlineKeyboardButton('• ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ •', callback_data=f'generate_stream_link:{file_id}')],
+                [InlineKeyboardButton('• ᴠɪᴇᴡ ᴀᴜᴅɪᴏ & ꜱᴜʙꜱ ɪɴꜰᴏ •', callback_data=f'extract_data:{file_id}')],
+                [InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ •', url=UPDATE_CHNL_LNK)]
             ]
     else:
-        return [[InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)]]
+        return [[InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ •', url=UPDATE_CHNL_LNK)]]
     
 @Client.on_message(filters.command('logs') & filters.user(ADMINS))
 async def log_file(bot, message):
