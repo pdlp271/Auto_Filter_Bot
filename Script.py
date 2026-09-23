@@ -1,17 +1,16 @@
 class script(object):
-    START_TXT = """<b><u>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</u></b>
+    START_TXT = """<b>ʜᴇʏ ʜɪ  {} 👋,</b>
 
-<b>ʜᴇʏ {}, {}</b>
+<b>I ᴀᴍ <a href=https://t.me/HP_RajMVBot>HP Raj</a>, ᴛʜᴇ ᴄᴏᴏʟᴇsᴛ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ ʙᴏᴛ ɪɴ ᴛʜᴇ Sᴇɢᴍᴇɴᴛ.</b>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
+<b>ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :- <a href='https://t.me/HP_Raj_Support_Bot'>ӇƤ Ʀƛʆ</a></b>
 """
 
+    GSTART_TXT = """<b>ʜᴇʏ ʜɪ {} 👋, </b>
 
-    GSTART_TXT = """<b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b>
+<b>I ᴀᴍ <a href=https://t.me/HP_RajMVBot>HP Raj</a>, ᴛʜᴇ ᴄᴏᴏʟᴇsᴛ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ ʙᴏᴛ ɪɴ ᴛʜᴇ Sᴇɢᴍᴇɴᴛ.</b>
 
-<b>ʜᴇʏ {},</b>
-
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>"""
+<b>ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :- <a href='https://t.me/HP_Raj_Support_Bot'>ӇƤ Ʀƛʆ</a></b>"""
 
     
     HELP_TXT = """<b>
@@ -36,11 +35,11 @@ class script(object):
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/HP_Raj_Support_Bot'>ӇƤ Ʀƛʆ</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://HP_Raj_MOVIES'>ᴠᴩɴ</a> 
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ1.4 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
     RESTART_TXT = """
@@ -99,7 +98,7 @@ class script(object):
 » ʀᴀᴍ - {8}%
 » ᴄᴘᴜ - {9}%</b>"""
 
-    LOG_TEXT_G = """#NewGroup
+    LOG_TEXT_G = """#HPInNewGroup
     
 Gʀᴏᴜᴘ = {}
 Iᴅ = <code>{}</code>
@@ -107,7 +106,7 @@ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 """
 
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewUserToHP
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
@@ -135,12 +134,12 @@ Nᴀᴍᴇ - {}
     CUDNT_FND = SPELLING_ERROR_TXT = """<b>‼️ ꜱᴘᴇʟʟɪɴɢ ᴍɪꜱᴛᴀᴋᴇ ʙʀᴏ!</b>  
 <b>😊 ɴᴏ ᴡᴏʀʀɪᴇꜱ — ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ᴏɴᴇ ʙᴇʟᴏᴡ 👇</b>
 
-<blockquote>👇 नीचे दिए गए विकल्पों में से movie के नाम की सही spelling चुनें</blockquote>"""
+<blockquote>👇 Spelling mistake ಆಗಿದೆ ❗. ಚಿಂತೆ ಮಾಡ್ಬೇಡಿ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಒಂದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ </blockquote>"""
 
 
-    DEL_MSG = """⚠️ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u><code>{}</code></u></b>
-
-<blockquote expandable><b><i>ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ & ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ</i></b></blockquote>"""
+    DEL_MSG = """<blockquote expandable><b><i> ⧗ Dᴜᴇ ᴛᴏ Cᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs....</i></b></blockquote>
+<blockquote expandable><b><i>›› Yᴏᴜʀ ғɪʟᴇs ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴡɪᴛʜɪɴ <b><u><code>{}</code></u></b>. Sᴏ ғᴏʀᴡᴀʀᴅ ɪᴛ ɪᴍᴍᴇᴅɪᴀᴛᴇʟʏ.</i></b></blockquote>
+<blockquote expandable><b><i>≡ ɴᴏᴛᴇ : ᴜsᴇ 𝐕𝐋𝐂 / 𝐌𝐗 ᴩʟᴀʏᴇʀ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ᴇxᴩᴇʀɪᴇɴᴄᴇ.</i></b></blockquote>"""
 
 
     I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
