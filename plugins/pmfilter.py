@@ -1167,14 +1167,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('🔰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔰', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                    InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
-                ],[
-                    InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
-                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
-                ]]
+                    InlineKeyboardButton('⭕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    ],[
+                        InlineKeyboardButton('• ꜱʜᴀʀᴇ ᴍᴇ •', url=f'https://t.me/share/url?url=%F0%9F%92%8E%20Get%20unlimited%20access%20to%20the%20latest%20Movies%2C%20Web%20Series%20%26%20Anime%2C%20all%20in%20one%20bot%21%20%F0%9F%8E%81%20It%E2%80%99s%20100%25%20free%20and%20Movies%20updated%20daily.%0A%0AJoin%20now%20%E2%9E%A4%20%40HP_RajMVBot'),
+                        InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
+                    ],[
+                        InlineKeyboardButton('• ᴍᴠ ɢʀᴏᴜᴩ •', url=f'https://t.me/+DWu_QXl2Ydg3N2Zl'),
+                        InlineKeyboardButton('• ᴍᴠ ᴜᴩᴅᴀᴛᴇ •', url=f'https://t.me/+DdA9O8bwZ0ljODk1'),
+                    ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
         curr_time = current_time.hour
