@@ -1,17 +1,16 @@
 class script(object):
-    START_TXT = """<b><u>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</u></b>
+    START_TXT = """<b>ʜᴇʏ ʜɪ  {} 👋,</b>
 
-<b>ʜᴇʏ {}, {}</b>
+<b>I ᴀᴍ <a href=https://t.me/HP_RajMVBot>HP Raj</a>, ᴛʜᴇ ᴄᴏᴏʟᴇsᴛ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ ʙᴏᴛ ɪɴ ᴛʜᴇ Sᴇɢᴍᴇɴᴛ.</b>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>
-"""
+<b>ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :- <a href='https://t.me/HP_Raj_Support_Bot'>ӇƤ Ʀƛʆ</a></b>"""
 
 
-    GSTART_TXT = """<b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b>
+    GSTART_TXT = """<b>ʜᴇʏ ʜɪ {} 👋, </b>
 
-<b>ʜᴇʏ {},</b>
+<b>I ᴀᴍ <a href=https://t.me/HP_RajMVBot>HP Raj</a>, ᴛʜᴇ ᴄᴏᴏʟᴇsᴛ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ ʙᴏᴛ ɪɴ ᴛʜᴇ Sᴇɢᴍᴇɴᴛ.</b>
 
-<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>"""
+<b>ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :- <a href='https://t.me/HP_Raj_Support_Bot'>ӇƤ Ʀƛʆ</a></b>"""
 
     
     HELP_TXT = """<b>
@@ -36,11 +35,11 @@ class script(object):
 
     ABOUT_TXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
+├⍟ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/HP_Raj_Support_Bot'>ӇƤ Ʀƛʆ</a> 
 ├⍟ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ Dᴀᴛᴀʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://HP_Raj_MOVIES'>ᴠᴩɴ</a> 
 ├⍟ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ1.4 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
     RESTART_TXT = """
@@ -99,7 +98,7 @@ class script(object):
 » ʀᴀᴍ - {8}%
 » ᴄᴘᴜ - {9}%</b>"""
 
-    LOG_TEXT_G = """#NewGroup
+    LOG_TEXT_G = """#HPInNewGroup
     
 Gʀᴏᴜᴘ = {}
 Iᴅ = <code>{}</code>
@@ -107,7 +106,7 @@ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 """
 
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewUserToHP
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
