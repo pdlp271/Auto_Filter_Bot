@@ -260,7 +260,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>📁ꜰɪʟᴇ ɴᴀᴍᴇ: {filename}\n×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES</b>"""
+    CAPTION = """<b>📁ꜰɪʟᴇ ɴᴀᴍᴇ {file_name}</b>\n\n<b>×͜×  ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ :- @HP_Raj_MOVIES</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
